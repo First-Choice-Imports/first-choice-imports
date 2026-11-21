@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Choice Imports | Premium Electronics</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+        }
+    }
+    </script>
+
+    <script type="module" src="js/3d.js"></script>
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="#" class="logo">
+        <span>FIRST CHOICE</span>
+        <span class="logo-second">IMPORTS</span>
+        <small>A SUBSIDIARY OF CATALINX DERIAVATIVE</small>
+    </a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#products" class="nav-button">Explore Store ↗</a>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+        <p class="eyebrow">WELCOME TO FIRST CHOICE IMPORTS</p>
+
+        <h1>
+            Technology<br>
+            <span>Without Limits.</span>
+        </h1>
+
+        <p class="hero-description">
+            Discover premium electronics, smart devices and
+            everyday technology. Quality products. Exceptional value.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#products" class="primary-button">Shop Collection ↗</a>
+            <a href="#about" class="secondary-button">Discover More</a>
+        </div>
+
+        <div class="hero-stats">
+            <div>
+                <strong>PREMIUM</strong>
+                <small>Product Selection</small>
+            </div>
+            <div>
+                <strong>QUALITY</strong>
+                <small>You Can Trust</small>
+            </div>
+            <div>
+                <strong>VALUE</strong>
+                <small>Every Purchase</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="floating-label label-top">NEXT GENERATION</div>
+        <div class="floating-label label-bottom">DISCOVER MORE</div>
+
+        <div id="three-container"></div>
+
+        <div class="hero-caption">
+            <span>01 / TECHNOLOGY COLLECTION</span>
+            <span>MOVE YOUR MOUSE TO EXPLORE</span>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        SCROLL TO EXPLORE ↓
+    </div>
+
+</section>
+
+<section class="products-section" id="products">
+
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">OUR COLLECTION</p>
+            <h2>Explore Our <span>Products.</span></h2>
+        </div>
+
+        <p class="section-description">
+            Technology and appliances selected to make everyday life better.
+        </p>
+    </div>
+
+    <div class="product-grid">
+
+        <article class="product-card">
+            <div class="product-image">
+                <img src="images/phone.jpg" alt="Phone">
+                <span class="product-tag">TECHNOLOGY</span>
+            </div>
+            <div class="product-info">
+                <h3>Smartphones</h3>
+                <p>Explore modern mobile devices.</p>
+                <a href="#contact">Enquire Now ↗</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img src="images/laptop.jpg" alt="Laptop">
+                <span class="product-tag">COMPUTING</span>
+            </div>
+            <div class="product-info">
+                <h3>Laptops</h3>
+                <p>Power your productivity.</p>
+                <a href="#contact">Enquire Now ↗</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img src="images/tablet.jpg" alt="Tablet">
+                <span class="product-tag">SMART DEVICES</span>
+            </div>
+            <div class="product-info">
+                <h3>Tablets</h3>
+                <p>Entertainment and productivity.</p>
+                <a href="#contact">Enquire Now ↗</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img src="images/headphone.jpg" alt="Headphones">
+                <span class="product-tag">AUDIO</span>
+            </div>
+            <div class="product-info">
+                <h3>Headphones</h3>
+                <p>Experience your favourite sounds.</p>
+                <a href="#contact">Enquire Now ↗</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img src="images/charger.jpg" alt="Charger">
+                <span class="product-tag">ACCESSORIES</span>
+            </div>
+            <div class="product-info">
+                <h3>Chargers</h3>
+                <p>Keep your devices powered.</p>
+                <a href="#contact">Enquire Now ↗</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img src="images/cord.jpg" alt="Cables and cords">
+                <span class="product-tag">ACCESSORIES</span>
+            </div>
+            <div class="product-info">
+                <h3>Cables & Cords</h3>
+                <p>Essential everyday connections.</p>
+                <a href="#contact">Enquire Now ↗</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img src="images/washingmachine.jpg" alt="Washing machine">
+                <span class="product-tag">HOME APPLIANCES</span>
+            </div>
+            <div class="product-info">
+                <h3>Washing Machines</h3>
+                <p>Smarter solutions for your home.</p>
+                <a href="#contact">Enquire Now ↗</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img src="images/airfryer.jpg" alt="Air fryer">
+                <span class="product-tag">HOME APPLIANCES</span>
+            </div>
+            <div class="product-info">
+                <h3>Air Fryers</h3>
+                <p>Modern kitchen convenience.</p>
+                <a href="#contact">Enquire Now ↗</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img src="images/printer.jpg" alt="Printer">
+                <span class="product-tag">OFFICE</span>
+            </div>
+            <div class="product-info">
+                <h3>Printers</h3>
+                <p>Reliable office technology.</p>
+                <a href="#contact">Enquire Now ↗</a>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+<section class="about-section" id="about">
+    <p class="eyebrow">WHY FIRST CHOICE IMPORTS?</p>
+    <h2>Your World of Technology.<br><span>One Destination.</span></h2>
+    <p>
+        We bring technology, electronics and modern appliances together
+        in one place. Discover products designed to meet your everyday needs.
+    </p>
+</section>
+
+<section class="contact-section" id="contact">
+    <p class="eyebrow">LET'S CONNECT</p>
+    <h2>Looking for something?</h2>
+    <p>Get in touch with First Choice Imports for product enquiries.</p>
+    <a href="mailto:info@example.com" class="primary-button">Contact Us ↗</a>
+    <small>Replace this sample email with your official business email later.</small>
+</section>
+
+</main>
+
+<footer>
+    <a href="#home" class="footer-logo">FIRST CHOICE IMPORTS</a>
+    <p>A subsidiary of Catalinx Deriavative</p>
+    <p>© 2026 First Choice Imports. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
